@@ -1,0 +1,17 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "auth.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-amplify": "^4.3.42",
+    "clipboardy": "^3.0.0",
+    "process": "^0.11.10"
+  }
+}

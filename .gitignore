@@ -1,0 +1,15 @@
+# dependencies
+node_modules
+
+# VScode files
+.vscode
+
+# IntelliJ
+.idea/
+*.iml
+
+# local env files
+.env*.local
+/.idea/
+output
+/gen/
