@@ -1,12 +1,12 @@
 import amplify from 'aws-amplify';
 
-export const username = '<mail>';
-export const password = '<password>';
+export const username = 'rafal.kociniewski@wundermanthompson.com';
+export const password = 'Passw0rd!';
 export const configure = () =>
   amplify.Auth.configure({
     Auth: {
-      region: '<aws_region>',
-      userPoolId: '<aws_user_pool_id>',
-      userPoolWebClientId: '<aws_user_pool_client_id>',
+      region: 'us-east-1',
+      userPoolId: 'us-east-1_Yh64PeF7J',
+      userPoolWebClientId: 'q061hdsb9ln2nu0qa34o41e9b',
     },
   });

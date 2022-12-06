@@ -3,9 +3,14 @@
   "include": [
     "src",
   ],
+  "ts-node": {
+    "esm": true
+  },
+  "lib": ["esnext"],
   "compilerOptions": {
     "module": "esnext",
-    "target": "es2017",
+    "target": "esnext",
+    "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "baseUrl": ".",
